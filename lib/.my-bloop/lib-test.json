@@ -1,0 +1,364 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "lib-test",
+        "directory": "/Users/Phil/Documents/Chew/scala-maven-example/lib",
+        "workspaceDir": "/Users/Phil/Documents/Chew/scala-maven-example",
+        "sources": [
+            "/Users/Phil/Documents/Chew/scala-maven-example/lib/src/test/scala"
+        ],
+        "dependencies": [
+            "lib",
+            "scala-maven-example"
+        ],
+        "classpath": [
+            "/Users/Phil/Documents/Chew/scala-maven-example/target/test-classes",
+            "/Users/Phil/Documents/Chew/scala-maven-example/target/classes",
+            "/Users/Phil/Documents/Chew/scala-maven-example/lib/target/test-classes",
+            "/Users/Phil/Documents/Chew/scala-maven-example/lib/target/classes",
+            "/Users/Phil/.m2/repository/org/scala-lang/scala-library/2.12.15/scala-library-2.12.15.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest_2.12/3.2.17/scalatest_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-core_2.12/3.2.17/scalatest-core_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-compatible/3.2.17/scalatest-compatible-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalactic/scalactic_2.12/3.2.17/scalactic_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scala-lang/modules/scala-xml_2.12/2.1.0/scala-xml_2.12-2.1.0.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-featurespec_2.12/3.2.17/scalatest-featurespec_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-flatspec_2.12/3.2.17/scalatest-flatspec_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-freespec_2.12/3.2.17/scalatest-freespec_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-funsuite_2.12/3.2.17/scalatest-funsuite_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-funspec_2.12/3.2.17/scalatest-funspec_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-propspec_2.12/3.2.17/scalatest-propspec_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-refspec_2.12/3.2.17/scalatest-refspec_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-wordspec_2.12/3.2.17/scalatest-wordspec_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-diagrams_2.12/3.2.17/scalatest-diagrams_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-matchers-core_2.12/3.2.17/scalatest-matchers-core_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-shouldmatchers_2.12/3.2.17/scalatest-shouldmatchers_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scalatest/scalatest-mustmatchers_2.12/3.2.17/scalatest-mustmatchers_2.12-3.2.17.jar",
+            "/Users/Phil/.m2/repository/org/scala-lang/scala-reflect/2.12.17/scala-reflect-2.12.17.jar",
+            "/Users/Phil/.m2/repository/org/scala-lang/scala-library/2.12.15/scala-library-2.12.15.jar"
+        ],
+        "out": "/Users/Phil/Documents/Chew/scala-maven-example/lib/target",
+        "classesDir": "/Users/Phil/Documents/Chew/scala-maven-example/lib/target/test-classes",
+        "resources": [
+            "/Users/Phil/Documents/Chew/scala-maven-example/lib/src/test/resources"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.15",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/Phil/.m2/repository/org/scala-lang/scala-compiler/2.12.15/scala-compiler-2.12.15.jar",
+                "/Users/Phil/.m2/repository/org/scala-lang/scala-library/2.12.15/scala-library-2.12.15.jar",
+                "/Users/Phil/.m2/repository/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar",
+                "/Users/Phil/.m2/repository/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/Users/Phil/.m2/repository/org/scala-lang/scala-reflect/2.12.15/scala-reflect-2.12.15.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-g",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "2.1.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scala-lang/modules/scala-xml_2.12/2.1.0/scala-xml_2.12-2.1.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-featurespec_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-featurespec_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-featurespec_2.12/3.2.17/scalatest-featurespec_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-compatible",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-compatible",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-compatible/3.2.17/scalatest-compatible-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.17",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/Phil/.m2/repository/org/scala-lang/scala-reflect/2.12.17/scala-reflect-2.12.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest_2.12/3.2.17/scalatest_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalactic/scalactic_2.12/3.2.17/scalactic_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-shouldmatchers_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-shouldmatchers_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-shouldmatchers_2.12/3.2.17/scalatest-shouldmatchers_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-propspec_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-propspec_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-propspec_2.12/3.2.17/scalatest-propspec_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-freespec_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-freespec_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-freespec_2.12/3.2.17/scalatest-freespec_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-flatspec_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-flatspec_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-flatspec_2.12/3.2.17/scalatest-flatspec_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-mustmatchers_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-mustmatchers_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-mustmatchers_2.12/3.2.17/scalatest-mustmatchers_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.15",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/Phil/.m2/repository/org/scala-lang/scala-library/2.12.15/scala-library-2.12.15.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/Phil/.m2/repository/org/scala-lang/scala-library/2.12.15/scala-library-2.12.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-core_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-core_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-core_2.12/3.2.17/scalatest-core_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-matchers-core_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-matchers-core_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-matchers-core_2.12/3.2.17/scalatest-matchers-core_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-diagrams_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-diagrams_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-diagrams_2.12/3.2.17/scalatest-diagrams_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-wordspec_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-wordspec_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-wordspec_2.12/3.2.17/scalatest-wordspec_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funspec_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funspec_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-funspec_2.12/3.2.17/scalatest-funspec_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funsuite_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funsuite_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-funsuite_2.12/3.2.17/scalatest-funsuite_2.12-3.2.17.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-refspec_2.12",
+                    "version": "3.2.17",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-refspec_2.12",
+                            "path": "/Users/Phil/.m2/repository/org/scalatest/scalatest-refspec_2.12/3.2.17/scalatest-refspec_2.12-3.2.17.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
